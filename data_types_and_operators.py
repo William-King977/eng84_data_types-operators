@@ -20,7 +20,7 @@
 # print(greeting.isalpha()) # checks if the variable holds letters
 # print(greeting.islower()) # checks if the variable is in lower case
 # print(greeting.endswith("!")) # checks if it ends with a "!"
-# print(greeting.startswith("H")) # checks if it ends with a "H"
+# print(greeting.startswith("H")) # checks if it starts with a "H"
 
 # In SQL, we have seen Null, but in Python, we have None
 x = None
