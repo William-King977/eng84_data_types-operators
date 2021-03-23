@@ -14,26 +14,36 @@ greeting = "hello world!" # string
 # h e l l o   w o r l d  !
 # 0 1 2 3 4 5 6 7 8 9 10 11
 
-print(len(greeting)) # number of characters in the string
-print(greeting[0:5]) # outputs hello (0 to 4)
-print(greeting[6:11]) # outputs world
+# print(len(greeting)) # number of characters in the string
+# print(greeting[0:5]) # outputs hello (0 to 4)
+# print(greeting[6:11]) # outputs world
 
 # Reverse indexing starts with -1
 #  h   e   l   l  o     w  o  r  l  d  !
 # -12 -11 -10 -9 -8 -7 -6 -5 -4 -3 -2 -1
-print(greeting[-6:])
+# print(greeting[-6:])
 
 # String metheds
-white_space = "lots of space at the end          "
-print(len(white_space))
-print(len(white_space.strip())) # .strip() removes white space
-
-example_text = "here's SOME text with lots of text"
-print(example_text.count("text")) # counts number of times the string is mentioned
+# white_space = "lots of space at the end          "
+# print(len(white_space))
+# print(len(white_space.strip())) # .strip() removes white space
+#
+# example_text = "here's SOME text with lots of text"
+# print(example_text.count("text")) # counts number of times the string is mentioned
 
 # Lower and uppercase
-print(example_text)
-print(example_text.upper())
-print(example_text.lower())
-print(example_text.capitalize()) # capitalises the first letter
-print(example_text.replace("with", ",")) # replaces "with" with ","
+# print(example_text)
+# print(example_text.upper())
+# print(example_text.lower())
+# print(example_text.capitalize()) # capitalises the first letter
+# print(example_text.replace("with", ",")) # replaces "with" with ","
+
+# Concatenation and Casting
+first_name = "William"
+last_name = "King"
+age = 18.5
+# print(first_name + " " + last_name + " " + str(age))
+print(int(age)) # converts into an int. Rounds down.
+
+# String formatting using f
+print(f"My name is {first_name} {last_name} and I'm {age} years old.")
