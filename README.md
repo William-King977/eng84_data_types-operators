@@ -19,7 +19,7 @@
   * `==` equal to
   * `!=` not equal to
     
-### Strings and Casting
+## Strings and Casting
 Strings in single and double quotes.
 ```python
 single_quotes = 'single quotes \'WoW\' moment'
@@ -70,7 +70,7 @@ String formatting with f
 print(f"My name is {first_name} {last_name} and I earn £{wage}.")
 ```
 
-### String methods
+## String methods
 Boolean methods for strings.
 ```python
 greeting = "Hello world!"
